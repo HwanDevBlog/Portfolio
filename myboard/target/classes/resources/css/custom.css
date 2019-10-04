@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+* {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.navbar-bold {
+	font-weight: bold;
+}
+
+/* 테이블 관련 디자인 처리 */
+thead th {
+	background-color: #4169E1;
+	color: white;
+	text-align: center;
+}
+
+thead th h4 {
+	font-weight: bold;
+}
+
+tbody td h5 {
+	font-weight: bold;
+}
+
+tr td:first-child, tr th:first-child {
+	/* border-radius : 테두리를 둥글게 만드는 속성 */
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+tr td:last-child, tr th:last-child {
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
